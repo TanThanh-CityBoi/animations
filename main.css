@@ -183,10 +183,13 @@ body {
     position: relative;
     justify-content: space-between;
     width: 100%;
-    margin-right: -200px;
-    visibility: hidden;
-    animation: card-show 2s 6s linear forwards;
+    
 }
+
+
+/* h2 {
+    font-size: clamp(4rem, 3vw, 8rem) !important;
+} */
 
 .letter-title {
     font-family: "Sacramento", cursive;
@@ -198,7 +201,10 @@ body {
 .letter-sub-title {
     font-family: "Sacramento", cursive;
     color: #fe7696;
-    font-size: 60px;
+    font-size: 52px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 1;
 }
 
 .letter {
@@ -209,6 +215,8 @@ body {
 
 .sub-letter {
     width: 610px;
+    visibility: hidden;
+    animation: card-show 1s 5s linear forwards;
 }
 
 /* Cursor */
@@ -248,14 +256,14 @@ body {
 
 @keyframes card-show {
     0% {
-        transform: translateY(100px);
+        transform: translateY(50px);
         opacity: 0;
         visibility: visible; 
     }
     100% {
         transform: translateY(0);
         opacity: 1;
-        visibility: visible; 
+        visibility: visible;
     }
 }
 
@@ -264,7 +272,7 @@ body {
     height: 200px;
     position: absolute;
     top: -10px;
-    right: 0;
+    right: -50px;
     display: inline-block;
     animation: yidon 5s infinite;
     transform: translateY(40%);
