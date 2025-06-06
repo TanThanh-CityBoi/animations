@@ -1,3 +1,5 @@
-# wmday
+# Animations
 
-https://tanthanh-cityboi.github.io/wmday/
+The animations are created using Html, CSS and JavaScript.
+
+
