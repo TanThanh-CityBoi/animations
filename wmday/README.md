@@ -1,3 +1,3 @@
 # wmday
 
-https://tanthanh-cityboi.github.io/animations/wmday/
+https://tanthanh-cityboi.github.io/demo_animations/wmday/
